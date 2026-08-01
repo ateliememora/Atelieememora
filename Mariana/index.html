@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memôra Ateliê</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #DDD3BE;
+    color: #5D0822;
+    font-family: Georgia, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+  }
+
+  .cartao {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 28px;
+    display: block;
+  }
+
+  .foto {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  }
+
+  .audio-caixa {
+    margin-top: 24px;
+  }
+
+  audio {
+    width: 100%;
+    accent-color: #5D0822;
+  }
+</style>
+</head>
+<body>
+
+  <div class="cartao">
+    <img class="logo" src="../foto.PNG" alt="Memôra Ateliê">
+
+    <img class="foto" src="foto.JPG" alt="Foto especial">
+
+    <div class="audio-caixa">
+      <audio controls autoplay>
+        <source src="audio.m4a" type="audio/mp4">
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+  </div>
+
+</body>
+</html>
