@@ -11,7 +11,7 @@
     background: #DDD3BE;
     color: #5D0822;
     font-family: Georgia, 'Times New Roman', serif;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,14 @@
   }
 
   .cartao {
-    max-width: 420px;
+    max-width: clamp(320px, 45vw, 480px);
     width: 100%;
     text-align: center;
   }
 
   .logo {
     width: 100%;
-    max-width: 320px;
+    max-width: clamp(220px, 35vw, 340px);
     margin: 0 auto 28px;
     display: block;
   }
